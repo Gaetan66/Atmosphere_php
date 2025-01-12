@@ -1,0 +1,2184 @@
+<previsions>
+<request_state>200</request_state>
+<source>internal:GFS:1</source>
+<message>OK</message>
+<request_time>0.005418062210083</request_time>
+<request_key>4deb4148245633f6e80aedd723f016d3</request_key>
+<model_run>01</model_run>
+<echeance hour="3" timestamp="2025-01-06 04:00:00 UTC">
+<temperature>
+<level val="2m">281.8</level>
+<level val="sol">284.6</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">99570</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">79.8</level>
+</humidite>
+<vent_moyen>
+<level val="10m">38.2</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">77.5</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">209</level>
+</vent_direction>
+<iso_zero>2306</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="6" timestamp="2025-01-06 07:00:00 UTC">
+<temperature>
+<level val="2m">282.1</level>
+<level val="sol">284.8</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">99470</level>
+</pression>
+<pluie interval="3h">0.2</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">84</level>
+</humidite>
+<vent_moyen>
+<level val="10m">39.3</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">75.6</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">197</level>
+</vent_direction>
+<iso_zero>2062</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="9" timestamp="2025-01-06 10:00:00 UTC">
+<temperature>
+<level val="2m">283.1</level>
+<level val="sol">285.9</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">99390</level>
+</pression>
+<pluie interval="3h">0.9</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">77.4</level>
+</humidite>
+<vent_moyen>
+<level val="10m">47.6</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">85</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">200</level>
+</vent_direction>
+<iso_zero>2013</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="12" timestamp="2025-01-06 13:00:00 UTC">
+<temperature>
+<level val="2m">284.3</level>
+<level val="sol">286.9</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">99390</level>
+</pression>
+<pluie interval="3h">0.1</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">77.8</level>
+</humidite>
+<vent_moyen>
+<level val="10m">47.1</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">86.5</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">208</level>
+</vent_direction>
+<iso_zero>1868</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">85</level>
+</nebulosite>
+</echeance>
+<echeance hour="15" timestamp="2025-01-06 16:00:00 UTC">
+<temperature>
+<level val="2m">281.4</level>
+<level val="sol">283.9</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">99720</level>
+</pression>
+<pluie interval="3h">1.1</pluie>
+<pluie_convective interval="3h">0.3</pluie_convective>
+<humidite>
+<level val="2m">79.4</level>
+</humidite>
+<vent_moyen>
+<level val="10m">39.3</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">68.8</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">240</level>
+</vent_direction>
+<iso_zero>1455</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">99</level>
+</nebulosite>
+</echeance>
+<echeance hour="18" timestamp="2025-01-06 19:00:00 UTC">
+<temperature>
+<level val="2m">279.3</level>
+<level val="sol">281.6</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100040</level>
+</pression>
+<pluie interval="3h">0.1</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">84.1</level>
+</humidite>
+<vent_moyen>
+<level val="10m">25.7</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">49.3</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">244</level>
+</vent_direction>
+<iso_zero>1119</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">99</level>
+</nebulosite>
+</echeance>
+<echeance hour="21" timestamp="2025-01-06 22:00:00 UTC">
+<temperature>
+<level val="2m">278</level>
+<level val="sol">280.2</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100330</level>
+</pression>
+<pluie interval="3h">0.1</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">83.9</level>
+</humidite>
+<vent_moyen>
+<level val="10m">24.4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">46.8</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">230</level>
+</vent_direction>
+<iso_zero>957</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="24" timestamp="2025-01-07 01:00:00 UTC">
+<temperature>
+<level val="2m">278.1</level>
+<level val="sol">280.1</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100460</level>
+</pression>
+<pluie interval="3h">0.2</pluie>
+<pluie_convective interval="3h">0.2</pluie_convective>
+<humidite>
+<level val="2m">79.9</level>
+</humidite>
+<vent_moyen>
+<level val="10m">33.5</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">52.7</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">226</level>
+</vent_direction>
+<iso_zero>925</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="27" timestamp="2025-01-07 04:00:00 UTC">
+<temperature>
+<level val="2m">277</level>
+<level val="sol">279.1</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100520</level>
+</pression>
+<pluie interval="3h">0.2</pluie>
+<pluie_convective interval="3h">0.2</pluie_convective>
+<humidite>
+<level val="2m">83.5</level>
+</humidite>
+<vent_moyen>
+<level val="10m">32.1</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">56.5</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">219</level>
+</vent_direction>
+<iso_zero>837</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">90</level>
+</nebulosite>
+</echeance>
+<echeance hour="30" timestamp="2025-01-07 07:00:00 UTC">
+<temperature>
+<level val="2m">276.4</level>
+<level val="sol">278.5</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100580</level>
+</pression>
+<pluie interval="3h">0.4</pluie>
+<pluie_convective interval="3h">0.4</pluie_convective>
+<humidite>
+<level val="2m">80.6</level>
+</humidite>
+<vent_moyen>
+<level val="10m">32.1</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">57.7</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">228</level>
+</vent_direction>
+<iso_zero>802</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">79</level>
+</nebulosite>
+</echeance>
+<echeance hour="33" timestamp="2025-01-07 10:00:00 UTC">
+<temperature>
+<level val="2m">276.5</level>
+<level val="sol">278.4</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100740</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">81</level>
+</humidite>
+<vent_moyen>
+<level val="10m">32.6</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">56.9</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">233</level>
+</vent_direction>
+<iso_zero>733</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">11</level>
+</nebulosite>
+</echeance>
+<echeance hour="36" timestamp="2025-01-07 13:00:00 UTC">
+<temperature>
+<level val="2m">277.1</level>
+<level val="sol">278.8</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100840</level>
+</pression>
+<pluie interval="3h">0.3</pluie>
+<pluie_convective interval="3h">0.3</pluie_convective>
+<humidite>
+<level val="2m">78.7</level>
+</humidite>
+<vent_moyen>
+<level val="10m">32.1</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">58.7</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">243</level>
+</vent_direction>
+<iso_zero>739</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">50</level>
+</nebulosite>
+</echeance>
+<echeance hour="39" timestamp="2025-01-07 16:00:00 UTC">
+<temperature>
+<level val="2m">277.1</level>
+<level val="sol">279</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100820</level>
+</pression>
+<pluie interval="3h">0.1</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">78.3</level>
+</humidite>
+<vent_moyen>
+<level val="10m">27.6</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">51.5</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">237</level>
+</vent_direction>
+<iso_zero>808</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">11</level>
+</nebulosite>
+</echeance>
+<echeance hour="42" timestamp="2025-01-07 19:00:00 UTC">
+<temperature>
+<level val="2m">276.1</level>
+<level val="sol">278</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100890</level>
+</pression>
+<pluie interval="3h">0.1</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">86.9</level>
+</humidite>
+<vent_moyen>
+<level val="10m">25.4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">52.6</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">221</level>
+</vent_direction>
+<iso_zero>840</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">30</level>
+</nebulosite>
+</echeance>
+<echeance hour="45" timestamp="2025-01-07 22:00:00 UTC">
+<temperature>
+<level val="2m">274.5</level>
+<level val="sol">276.1</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100940</level>
+</pression>
+<pluie interval="3h">1.2</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">97.3</level>
+</humidite>
+<vent_moyen>
+<level val="10m">18.6</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">38.6</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">249</level>
+</vent_direction>
+<iso_zero>517</iso_zero>
+<risque_neige>oui</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="48" timestamp="2025-01-08 01:00:00 UTC">
+<temperature>
+<level val="2m">274.9</level>
+<level val="sol">276.5</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100810</level>
+</pression>
+<pluie interval="3h">3.4</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">99.5</level>
+</humidite>
+<vent_moyen>
+<level val="10m">8.2</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">21.7</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">281</level>
+</vent_direction>
+<iso_zero>718</iso_zero>
+<risque_neige>oui</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="51" timestamp="2025-01-08 04:00:00 UTC">
+<temperature>
+<level val="2m">275.4</level>
+<level val="sol">277.1</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100790</level>
+</pression>
+<pluie interval="3h">3.6</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">99.1</level>
+</humidite>
+<vent_moyen>
+<level val="10m">7.4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">22.7</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">283</level>
+</vent_direction>
+<iso_zero>824</iso_zero>
+<risque_neige>oui</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="54" timestamp="2025-01-08 07:00:00 UTC">
+<temperature>
+<level val="2m">274.1</level>
+<level val="sol">275.8</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100770</level>
+</pression>
+<pluie interval="3h">2.4</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">99.8</level>
+</humidite>
+<vent_moyen>
+<level val="10m">6</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">7.6</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">362</level>
+</vent_direction>
+<iso_zero>1062</iso_zero>
+<risque_neige>oui</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="57" timestamp="2025-01-08 10:00:00 UTC">
+<temperature>
+<level val="2m">274.3</level>
+<level val="sol">276</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100830</level>
+</pression>
+<pluie interval="3h">3.2</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">99.5</level>
+</humidite>
+<vent_moyen>
+<level val="10m">5</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">6.5</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">392</level>
+</vent_direction>
+<iso_zero>986</iso_zero>
+<risque_neige>oui</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="60" timestamp="2025-01-08 13:00:00 UTC">
+<temperature>
+<level val="2m">274.3</level>
+<level val="sol">276</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100740</level>
+</pression>
+<pluie interval="3h">4.7</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">99.5</level>
+</humidite>
+<vent_moyen>
+<level val="10m">6.3</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">11.9</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">445</level>
+</vent_direction>
+<iso_zero>2057</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="63" timestamp="2025-01-08 16:00:00 UTC">
+<temperature>
+<level val="2m">274.8</level>
+<level val="sol">276.7</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100540</level>
+</pression>
+<pluie interval="3h">4.5</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">99.6</level>
+</humidite>
+<vent_moyen>
+<level val="10m">6.7</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">14.1</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">488</level>
+</vent_direction>
+<iso_zero>2108</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="66" timestamp="2025-01-08 19:00:00 UTC">
+<temperature>
+<level val="2m">282.2</level>
+<level val="sol">284.8</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100190</level>
+</pression>
+<pluie interval="3h">0.1</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">88</level>
+</humidite>
+<vent_moyen>
+<level val="10m">30.3</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">64.1</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">218</level>
+</vent_direction>
+<iso_zero>2076</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="69" timestamp="2025-01-08 22:00:00 UTC">
+<temperature>
+<level val="2m">282.5</level>
+<level val="sol">284.9</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100100</level>
+</pression>
+<pluie interval="3h">0.3</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">84.6</level>
+</humidite>
+<vent_moyen>
+<level val="10m">33.5</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">63.1</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">219</level>
+</vent_direction>
+<iso_zero>1808</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="72" timestamp="2025-01-09 01:00:00 UTC">
+<temperature>
+<level val="2m">281.9</level>
+<level val="sol">284.3</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100070</level>
+</pression>
+<pluie interval="3h">1.2</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">87.3</level>
+</humidite>
+<vent_moyen>
+<level val="10m">29.6</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">58.1</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">230</level>
+</vent_direction>
+<iso_zero>1896</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="75" timestamp="2025-01-09 04:00:00 UTC">
+<temperature>
+<level val="2m">281.7</level>
+<level val="sol">284.1</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100070</level>
+</pression>
+<pluie interval="3h">0.1</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">86.7</level>
+</humidite>
+<vent_moyen>
+<level val="10m">30.4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">57.3</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">214</level>
+</vent_direction>
+<iso_zero>1700</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="78" timestamp="2025-01-09 07:00:00 UTC">
+<temperature>
+<level val="2m">281.8</level>
+<level val="sol">284.2</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100030</level>
+</pression>
+<pluie interval="3h">0.7</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">86.2</level>
+</humidite>
+<vent_moyen>
+<level val="10m">37.7</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">65.6</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">210</level>
+</vent_direction>
+<iso_zero>1636</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="81" timestamp="2025-01-09 10:00:00 UTC">
+<temperature>
+<level val="2m">281.2</level>
+<level val="sol">283.5</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100040</level>
+</pression>
+<pluie interval="3h">2.1</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">90.7</level>
+</humidite>
+<vent_moyen>
+<level val="10m">36</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">66.7</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">208</level>
+</vent_direction>
+<iso_zero>1612</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="84" timestamp="2025-01-09 13:00:00 UTC">
+<temperature>
+<level val="2m">281.1</level>
+<level val="sol">283.4</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">99850</level>
+</pression>
+<pluie interval="3h">2.9</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">91.2</level>
+</humidite>
+<vent_moyen>
+<level val="10m">38.9</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">71.8</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">215</level>
+</vent_direction>
+<iso_zero>1596</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="87" timestamp="2025-01-09 16:00:00 UTC">
+<temperature>
+<level val="2m">274</level>
+<level val="sol">275.6</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">100760</level>
+</pression>
+<pluie interval="3h">2.6</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">94.4</level>
+</humidite>
+<vent_moyen>
+<level val="10m">28.6</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">46.5</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">306</level>
+</vent_direction>
+<iso_zero>385</iso_zero>
+<risque_neige>oui</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="90" timestamp="2025-01-09 19:00:00 UTC">
+<temperature>
+<level val="2m">273.2</level>
+<level val="sol">274.5</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">101490</level>
+</pression>
+<pluie interval="3h">0.1</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">96.1</level>
+</humidite>
+<vent_moyen>
+<level val="10m">23.4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">47.9</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">277</level>
+</vent_direction>
+<iso_zero>320</iso_zero>
+<risque_neige>oui</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">91</level>
+</nebulosite>
+</echeance>
+<echeance hour="93" timestamp="2025-01-09 22:00:00 UTC">
+<temperature>
+<level val="2m">273</level>
+<level val="sol">274.4</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">101840</level>
+</pression>
+<pluie interval="3h">0.1</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">88.5</level>
+</humidite>
+<vent_moyen>
+<level val="10m">20.6</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">39.3</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">262</level>
+</vent_direction>
+<iso_zero>306</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">44</level>
+</nebulosite>
+</echeance>
+<echeance hour="96" timestamp="2025-01-10 01:00:00 UTC">
+<temperature>
+<level val="2m">272.5</level>
+<level val="sol">273.7</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102080</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">89.7</level>
+</humidite>
+<vent_moyen>
+<level val="10m">18.5</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">38.8</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">261</level>
+</vent_direction>
+<iso_zero>216</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">35</level>
+</nebulosite>
+</echeance>
+<echeance hour="99" timestamp="2025-01-10 04:00:00 UTC">
+<temperature>
+<level val="2m">272.3</level>
+<level val="sol">273.3</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102300</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">89.7</level>
+</humidite>
+<vent_moyen>
+<level val="10m">15.5</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">33.2</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">262</level>
+</vent_direction>
+<iso_zero>189</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">58</level>
+</nebulosite>
+</echeance>
+<echeance hour="102" timestamp="2025-01-10 07:00:00 UTC">
+<temperature>
+<level val="2m">271.8</level>
+<level val="sol">272.8</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102400</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">92.9</level>
+</humidite>
+<vent_moyen>
+<level val="10m">10.3</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">22.3</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">232</level>
+</vent_direction>
+<iso_zero>101</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">65</level>
+</nebulosite>
+</echeance>
+<echeance hour="105" timestamp="2025-01-10 10:00:00 UTC">
+<temperature>
+<level val="2m">273.2</level>
+<level val="sol">273.8</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102550</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">86.3</level>
+</humidite>
+<vent_moyen>
+<level val="10m">9.4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">16.2</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">219</level>
+</vent_direction>
+<iso_zero>318</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">52</level>
+</nebulosite>
+</echeance>
+<echeance hour="108" timestamp="2025-01-10 13:00:00 UTC">
+<temperature>
+<level val="2m">275.6</level>
+<level val="sol">276.2</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102470</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">70.8</level>
+</humidite>
+<vent_moyen>
+<level val="10m">8.4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">11</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">237</level>
+</vent_direction>
+<iso_zero>537</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">67</level>
+</nebulosite>
+</echeance>
+<echeance hour="111" timestamp="2025-01-10 16:00:00 UTC">
+<temperature>
+<level val="2m">275.6</level>
+<level val="sol">276.5</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102350</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">73.8</level>
+</humidite>
+<vent_moyen>
+<level val="10m">1.6</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">2.3</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">260</level>
+</vent_direction>
+<iso_zero>587</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="114" timestamp="2025-01-10 19:00:00 UTC">
+<temperature>
+<level val="2m">274</level>
+<level val="sol">275.2</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102410</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">82.1</level>
+</humidite>
+<vent_moyen>
+<level val="10m">3.8</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">3.6</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">419</level>
+</vent_direction>
+<iso_zero>533</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="117" timestamp="2025-01-10 22:00:00 UTC">
+<temperature>
+<level val="2m">272.9</level>
+<level val="sol">274.3</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102530</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">87</level>
+</humidite>
+<vent_moyen>
+<level val="10m">3.2</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">3.3</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">399</level>
+</vent_direction>
+<iso_zero>282</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">99</level>
+</nebulosite>
+</echeance>
+<echeance hour="120" timestamp="2025-01-11 01:00:00 UTC">
+<temperature>
+<level val="2m">272</level>
+<level val="sol">273.4</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102570</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">91.6</level>
+</humidite>
+<vent_moyen>
+<level val="10m">5.7</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">5.8</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">380</level>
+</vent_direction>
+<iso_zero>134</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">90</level>
+</nebulosite>
+</echeance>
+<echeance hour="123" timestamp="2025-01-11 04:00:00 UTC">
+<temperature>
+<level val="2m">271.5</level>
+<level val="sol">272.8</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102660</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">91.7</level>
+</humidite>
+<vent_moyen>
+<level val="10m">5.8</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">5.5</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">364</level>
+</vent_direction>
+<iso_zero>67</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">56</level>
+</nebulosite>
+</echeance>
+<echeance hour="126" timestamp="2025-01-11 07:00:00 UTC">
+<temperature>
+<level val="2m">271.3</level>
+<level val="sol">272.5</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102790</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">87.3</level>
+</humidite>
+<vent_moyen>
+<level val="10m">5.3</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">5.2</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">338</level>
+</vent_direction>
+<iso_zero>32</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">31</level>
+</nebulosite>
+</echeance>
+<echeance hour="129" timestamp="2025-01-11 10:00:00 UTC">
+<temperature>
+<level val="2m">272.8</level>
+<level val="sol">273.3</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102950</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">84.2</level>
+</humidite>
+<vent_moyen>
+<level val="10m">5.3</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">9.4</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">343</level>
+</vent_direction>
+<iso_zero>266</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">7</level>
+</nebulosite>
+</echeance>
+<echeance hour="132" timestamp="2025-01-11 13:00:00 UTC">
+<temperature>
+<level val="2m">275.3</level>
+<level val="sol">275.5</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102970</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">77.4</level>
+</humidite>
+<vent_moyen>
+<level val="10m">10.6</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">14.8</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">351</level>
+</vent_direction>
+<iso_zero>487</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">8</level>
+</nebulosite>
+</echeance>
+<echeance hour="135" timestamp="2025-01-11 16:00:00 UTC">
+<temperature>
+<level val="2m">274.4</level>
+<level val="sol">275.1</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103040</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">83.2</level>
+</humidite>
+<vent_moyen>
+<level val="10m">9.8</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">16.9</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">360</level>
+</vent_direction>
+<iso_zero>484</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">25</level>
+</nebulosite>
+</echeance>
+<echeance hour="138" timestamp="2025-01-11 19:00:00 UTC">
+<temperature>
+<level val="2m">271.4</level>
+<level val="sol">272.2</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103230</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">94.3</level>
+</humidite>
+<vent_moyen>
+<level val="10m">8.2</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">14.4</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">370</level>
+</vent_direction>
+<iso_zero>50</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">22</level>
+</nebulosite>
+</echeance>
+<echeance hour="141" timestamp="2025-01-11 22:00:00 UTC">
+<temperature>
+<level val="2m">270.9</level>
+<level val="sol">271.7</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103370</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">92.1</level>
+</humidite>
+<vent_moyen>
+<level val="10m">4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">4</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">340</level>
+</vent_direction>
+<iso_zero>1</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">11</level>
+</nebulosite>
+</echeance>
+<echeance hour="144" timestamp="2025-01-12 01:00:00 UTC">
+<temperature>
+<level val="2m">270.8</level>
+<level val="sol">271.7</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103380</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">90.3</level>
+</humidite>
+<vent_moyen>
+<level val="10m">4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">4</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">309</level>
+</vent_direction>
+<iso_zero>0</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">9</level>
+</nebulosite>
+</echeance>
+<echeance hour="147" timestamp="2025-01-12 04:00:00 UTC">
+<temperature>
+<level val="2m">270.6</level>
+<level val="sol">271.6</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103370</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">87.7</level>
+</humidite>
+<vent_moyen>
+<level val="10m">5.3</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">5.1</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">278</level>
+</vent_direction>
+<iso_zero>0</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">7</level>
+</nebulosite>
+</echeance>
+<echeance hour="150" timestamp="2025-01-12 07:00:00 UTC">
+<temperature>
+<level val="2m">270.3</level>
+<level val="sol">271.1</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103390</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">92.6</level>
+</humidite>
+<vent_moyen>
+<level val="10m">7.2</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">9.4</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">280</level>
+</vent_direction>
+<iso_zero>0</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">13</level>
+</nebulosite>
+</echeance>
+<echeance hour="153" timestamp="2025-01-12 10:00:00 UTC">
+<temperature>
+<level val="2m">273.3</level>
+<level val="sol">273.6</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103460</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">83</level>
+</humidite>
+<vent_moyen>
+<level val="10m">11</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">30.6</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">310</level>
+</vent_direction>
+<iso_zero>328</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">99</level>
+</nebulosite>
+</echeance>
+<echeance hour="156" timestamp="2025-01-12 13:00:00 UTC">
+<temperature>
+<level val="2m">275.1</level>
+<level val="sol">275.4</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103280</level>
+</pression>
+<pluie interval="3h">0.1</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">72.4</level>
+</humidite>
+<vent_moyen>
+<level val="10m">16.9</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">31.1</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">344</level>
+</vent_direction>
+<iso_zero>497</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="159" timestamp="2025-01-12 16:00:00 UTC">
+<temperature>
+<level val="2m">273.5</level>
+<level val="sol">273.9</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103280</level>
+</pression>
+<pluie interval="3h">0.3</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">97</level>
+</humidite>
+<vent_moyen>
+<level val="10m">16.7</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">36.4</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">332</level>
+</vent_direction>
+<iso_zero>367</iso_zero>
+<risque_neige>oui</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="162" timestamp="2025-01-12 19:00:00 UTC">
+<temperature>
+<level val="2m">273.1</level>
+<level val="sol">273.7</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103340</level>
+</pression>
+<pluie interval="3h">0.3</pluie>
+<pluie_convective interval="3h">0.1</pluie_convective>
+<humidite>
+<level val="2m">88.9</level>
+</humidite>
+<vent_moyen>
+<level val="10m">16.5</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">33</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">374</level>
+</vent_direction>
+<iso_zero>329</iso_zero>
+<risque_neige>oui</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">100</level>
+</nebulosite>
+</echeance>
+<echeance hour="165" timestamp="2025-01-12 22:00:00 UTC">
+<temperature>
+<level val="2m">270.7</level>
+<level val="sol">271.4</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103440</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">92.5</level>
+</humidite>
+<vent_moyen>
+<level val="10m">10.8</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">27.8</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">393</level>
+</vent_direction>
+<iso_zero>0</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">76</level>
+</nebulosite>
+</echeance>
+<echeance hour="168" timestamp="2025-01-13 01:00:00 UTC">
+<temperature>
+<level val="2m">270.4</level>
+<level val="sol">271</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103420</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">89.5</level>
+</humidite>
+<vent_moyen>
+<level val="10m">15.2</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">33.9</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">405</level>
+</vent_direction>
+<iso_zero>0</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">43</level>
+</nebulosite>
+</echeance>
+<echeance hour="171" timestamp="2025-01-13 04:00:00 UTC">
+<temperature>
+<level val="2m">269.7</level>
+<level val="sol">270.2</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103420</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">89.2</level>
+</humidite>
+<vent_moyen>
+<level val="10m">18.5</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">36.8</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">407</level>
+</vent_direction>
+<iso_zero>0</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">34</level>
+</nebulosite>
+</echeance>
+<echeance hour="174" timestamp="2025-01-13 07:00:00 UTC">
+<temperature>
+<level val="2m">269.4</level>
+<level val="sol">270</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103380</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">84.1</level>
+</humidite>
+<vent_moyen>
+<level val="10m">19.1</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">39.2</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">415</level>
+</vent_direction>
+<iso_zero>0</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">31</level>
+</nebulosite>
+</echeance>
+<echeance hour="177" timestamp="2025-01-13 10:00:00 UTC">
+<temperature>
+<level val="2m">270.1</level>
+<level val="sol">270.4</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103380</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">81.4</level>
+</humidite>
+<vent_moyen>
+<level val="10m">21.4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">41.2</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">408</level>
+</vent_direction>
+<iso_zero>0</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">55</level>
+</nebulosite>
+</echeance>
+<echeance hour="180" timestamp="2025-01-13 13:00:00 UTC">
+<temperature>
+<level val="2m">271.9</level>
+<level val="sol">272.1</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103220</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">68.3</level>
+</humidite>
+<vent_moyen>
+<level val="10m">27</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">38.5</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">416</level>
+</vent_direction>
+<iso_zero>132</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">77</level>
+</nebulosite>
+</echeance>
+<echeance hour="183" timestamp="2025-01-13 16:00:00 UTC">
+<temperature>
+<level val="2m">271.4</level>
+<level val="sol">271.9</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103130</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">70.4</level>
+</humidite>
+<vent_moyen>
+<level val="10m">24.4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">39.6</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">418</level>
+</vent_direction>
+<iso_zero>45</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">80</level>
+</nebulosite>
+</echeance>
+<echeance hour="186" timestamp="2025-01-13 19:00:00 UTC">
+<temperature>
+<level val="2m">269.7</level>
+<level val="sol">270.4</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">103100</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">80.9</level>
+</humidite>
+<vent_moyen>
+<level val="10m">22.4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">45.4</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">412</level>
+</vent_direction>
+<iso_zero>0</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">88</level>
+</nebulosite>
+</echeance>
+<echeance hour="189" timestamp="2025-01-13 22:00:00 UTC">
+<temperature>
+<level val="2m">269.2</level>
+<level val="sol">269.9</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102980</level>
+</pression>
+<pluie interval="3h">0</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">84.6</level>
+</humidite>
+<vent_moyen>
+<level val="10m">23.4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">45.8</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">412</level>
+</vent_direction>
+<iso_zero>0</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">94</level>
+</nebulosite>
+</echeance>
+<echeance hour="192" timestamp="2025-01-14 01:00:00 UTC">
+<temperature>
+<level val="2m">269.4</level>
+<level val="sol">270</level>
+<level val="850hPa">273.2</level>
+<level val="500hPa">273.2</level>
+</temperature>
+<pression>
+<level val="niveau_de_la_mer">102790</level>
+</pression>
+<pluie interval="3h">0.1</pluie>
+<pluie_convective interval="3h">0</pluie_convective>
+<humidite>
+<level val="2m">77.4</level>
+</humidite>
+<vent_moyen>
+<level val="10m">27.4</level>
+</vent_moyen>
+<vent_rafales>
+<level val="10m">42.1</level>
+</vent_rafales>
+<vent_direction>
+<level val="10m">422</level>
+</vent_direction>
+<iso_zero>0</iso_zero>
+<risque_neige>non</risque_neige>
+<cape>0</cape>
+<nebulosite>
+<level val="haute">0</level>
+<level val="moyenne">0</level>
+<level val="basse">0</level>
+<level val="totale">97</level>
+</nebulosite>
+</echeance>
+</previsions>
