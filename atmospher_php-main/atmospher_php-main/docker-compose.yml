@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .  # Le contexte de construction est le répertoire actuel
+      dockerfile: Dockerfile  # Nom du Dockerfile (si ce n'est pas Dockerfile, vous pouvez le spécifier ici)
+    container_name: php_server
+    ports:
+      - "8080:80"  # Redirige le port 80 du container vers le port 8080 de votre machine
+    volumes:
+      - .:/var/www/html  # Lier le dossier public de votre machine au dossier HTML du container
+    environment:
+      - APACHE_DOCUMENT_ROOT=/var/www/html  # Spécifie le document root d'Apache
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
