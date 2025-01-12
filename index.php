@@ -14,6 +14,22 @@ try {
         throw new Exception("Les données de géolocalisation sont invalides.");
     }
 
+    // Coordonnées de l'IUT Charlemagne (Nancy)
+    $iutLatitude = 48.693722;
+    $iutLongitude = 6.18341;
+
+    // Fonction pour vérifier si les coordonnées sont suffisamment proches
+    function isNearby($lat1, $lon1, $lat2, $lon2, $tolerance = 0.01) {
+        // Vérifie si les coordonnées sont dans un rayon de $tolerance (en degrés)
+        return (abs($lat1 - $lat2) < $tolerance) && (abs($lon1 - $lon2) < $tolerance);
+    }
+
+    // Si l'utilisateur est à Nancy mais pas assez près de l'IUT Charlemagne, on place l'IUT Charlemagne comme position
+    if (!isNearby($latitude, $longitude, $iutLatitude, $iutLongitude)) {
+        $latitude = $iutLatitude;
+        $longitude = $iutLongitude;
+    }
+
     // Récupération des incidents
     $apiUrl = "https://carto.g-ny.org/data/cifs/cifs_waze_v2.json";
     $data = file_get_contents($apiUrl);
@@ -39,13 +55,44 @@ try {
     $proc = new XSLTProcessor();
     $proc->importStylesheet($xsl);
     $meteoHtml = $proc->transformToXML($xmlMeteo);
+
+    // Récupération des données de qualité de l'air pour Nancy
+    $url = "https://services3.arcgis.com/Is0UwT37raQYl9Jj/arcgis/rest/services/ind_grandest/FeatureServer/0/query?where=lib_zone%3D'Nancy'&outFields=date_ech,lib_zone,lib_qual&f=pjson";
+    $air = file_get_contents($url);
+    if ($air === false) {
+        die("Erreur : Impossible de récupérer les données de l'API.");
+    }
+    $airJson = json_decode($air, true);
+
+    $latestFeature = null;
+    $today = (new DateTime())->format('Y-m-d');
+
+    if (isset($airJson["features"])) {
+        foreach ($airJson["features"] as $feature) {
+            if (isset($feature["attributes"]["date_ech"], $feature["attributes"]["lib_zone"], $feature["attributes"]["lib_qual"])) {
+                $timestamp = $feature["attributes"]["date_ech"] / 1000; // L'API utilise des millisecondes
+                $featureDate = (new DateTime("@$timestamp"))->format('Y-m-d');
+
+                if ($feature["attributes"]["lib_zone"] === 'Nancy' && $featureDate === $today) {
+                    $latestFeature = $feature;
+                    break;
+                }
+            }
+        }
+    }
+
+    if ($latestFeature) {
+        $pollution = $latestFeature["attributes"]["lib_qual"];
+    } else {
+        $pollution = "Aucune donnée de pollution disponible pour Nancy aujourd'hui.";
+    }
+
 } catch (Exception $e) {
     $error = "Erreur : " . $e->getMessage();
 }
 ?>
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <title>Prévisions Météo</title>
@@ -61,8 +108,7 @@ try {
             width: 100%;
         }
 
-        th,
-        td {
+        th, td {
             border: 1px solid #ddd;
             padding: 8px;
             text-align: center;
@@ -95,6 +141,11 @@ try {
     </div>
 
     <div>
+        <h2>Qualité de l'air à Nancy</h2>
+        <p><?= $pollution ?></p>
+    </div>
+
+    <div>
         <h2>Carte des incidents</h2>
         <div id="map"></div>
     </div>
@@ -102,9 +153,9 @@ try {
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
-    // Initialisation de la carte avec la position de l'utilisateur
-    const userLatitude = <?= json_encode($latitude ?? 48.688) ?>;
-    const userLongitude = <?= json_encode($longitude ?? 6.18) ?>;
+    // Initialisation de la carte avec position (utilisateur ou IUT Charlemagne)
+    const userLatitude = <?= json_encode($latitude) ?>;
+    const userLongitude = <?= json_encode($longitude) ?>;
 
     const map = L.map('map').setView([userLatitude, userLongitude], 13);
 
@@ -118,19 +169,19 @@ try {
     const incidents = <?= json_encode($incidents); ?>;
 
     incidents.forEach(incident => {
-        const {
-            location,
-            description
-        } = incident;
+        const { location, description } = incident;
         if (location && location.polyline) {
             const [lat, lng] = location.polyline.split(' ').map(Number);
 
-            L.marker([lat, lng])
-                .addTo(map)
-                .bindPopup(`
-                    <strong>${location.location_description || 'Description indisponible'}</strong><br>
-                    ${description || 'Aucune information'}
-                `);
+            // Assurer que les coordonnées sont valides avant d'ajouter un marqueur
+            if (!isNaN(lat) && !isNaN(lng)) {
+                L.marker([lat, lng])
+                    .addTo(map)
+                    .bindPopup(`
+                        <strong>${location.location_description || 'Description indisponible'}</strong><br>
+                        ${description || 'Aucune information'}
+                    `);
+            }
         }
     });
 </script>
