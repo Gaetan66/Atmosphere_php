@@ -1,22 +1,27 @@
 <?php
 
-function query($url){
+function query($url, $proxy = null) {
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($ch, CURLOPT_PROXY, 'www-cache:3128');
-    curl_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_HTTP);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    if ($proxy) {
+        curl_setopt($ch, CURLOPT_PROXY, $proxy);
+        curl_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_HTTP);
+    }
     $response = curl_exec($ch);
     if (curl_errno($ch)) {
-        echo 'Error:' . curl_error($ch);
+        echo 'Erreur cURL : ' . curl_error($ch);
     }
     curl_close($ch);
     return $response;
 }
 
+
+$proxy = 'www-cache:3128';
+
 try {
-    $latlongResponse = file_get_contents('https://ipapi.co/xml/');
+    $latlongResponse = query('https://ipapi.co/xml/', $proxy);
     if ($latlongResponse === false) {
         throw new Exception("Impossible de contacter l'API IPAPI.");
     }
@@ -29,6 +34,7 @@ try {
         throw new Exception("Les données de géolocalisation sont invalides.");
     }
 
+    // Position par défaut si l'utilisateur n'est pas proche
     $iutLatitude = 48.693722;
     $iutLongitude = 6.18341;
 
@@ -41,21 +47,24 @@ try {
         $longitude = $iutLongitude;
     }
 
+    // Requête à l'API des incidents Waze
     $apiUrl = "https://carto.g-ny.org/data/cifs/cifs_waze_v2.json";
-    $data = file_get_contents($apiUrl);
+    $data = query($apiUrl, $proxy);
     if ($data === false) {
         throw new Exception("Impossible de contacter l'API des incidents.");
     }
     $incidents = json_decode($data, true)['incidents'] ?? [];
 
-    $meteoDataUrl = "https://www.infoclimat.fr/public-api/gfs/xml?_ll=" . $latitude . "," . $longitude . "&_auth=ARsDFFIsBCZRfFtsD3lSe1Q8ADUPeVRzBHgFZgtuAH1UMQNgUTNcPlU5VClSfVZkUn8AYVxmVW0Eb1I2WylSLgFgA25SNwRuUT1bPw83UnlUeAB9DzFUcwR4BWMLYwBhVCkDb1EzXCBVOFQoUmNWZlJnAH9cfFVsBGRSPVs1UjEBZwNkUjIEYVE6WyYPIFJjVGUAZg9mVD4EbwVhCzMAMFQzA2JRMlw5VThUKFJiVmtSZQBpXGtVbwRlUjVbKVIuARsDFFIsBCZRfFtsD3lSe1QyAD4PZA%3D%3D&_c=19f3aa7d766b6ba91191c8be71dd1ab2";
-    $meteoResponse = file_get_contents($meteoDataUrl);
+    // Requête à l'API météo d'Infoclimat
+    $meteoDataUrl = "https://www.infoclimat.fr/public-api/gfs/xml?_ll=$latitude,$longitude&_auth=ARsDFFIsBCZRfFtsD3lSe1Q8ADUPeVRzBHgFZgtuAH1UMQNgUTNcPlU5VClSfVZkUn8AYVxmVW0Eb1I2WylSLgFgA25SNwRuUT1bPw83UnlUeAB9DzFUcwR4BWMLYwBhVCkDb1EzXCBVOFQoUmNWZlJnAH9cfFVsBGRSPVs1UjEBZwNkUjIEYVE6WyYPIFJjVGUAZg9mVD4EbwVhCzMAMFQzA2JRMlw5VThUKFJiVmtSZQBpXGtVbwRlUjVbKVIuARsDFFIsBCZRfFtsD3lSe1QyAD4PZA%3D%3D&_c=19f3aa7d766b6ba91191c8be71dd1ab2";
+    $meteoResponse = query($meteoDataUrl, $proxy);
     if ($meteoResponse === false) {
         throw new Exception("Impossible de contacter l'API météo d'Infoclimat.");
     }
 
     $xmlMeteo = new SimpleXMLElement($meteoResponse);
 
+    // Transformation XSL pour les données météo
     $xsl = new DOMDocument();
     if (!$xsl->load('meteoDuJour.xsl')) {
         throw new Exception("Le fichier XSL n'a pas pu être chargé.");
@@ -64,8 +73,9 @@ try {
     $proc->importStylesheet($xsl);
     $meteoHtml = $proc->transformToXML($xmlMeteo);
 
+    // Requête à l'API de qualité de l'air
     $url = "https://services3.arcgis.com/Is0UwT37raQYl9Jj/arcgis/rest/services/ind_grandest/FeatureServer/0/query?where=lib_zone%3D'Nancy'&outFields=date_ech,lib_zone,lib_qual&f=pjson";
-    $air = file_get_contents($url);
+    $air = query($url, $proxy);
     if ($air === false) {
         die("Erreur : Impossible de récupérer les données de l'API.");
     }
@@ -105,37 +115,12 @@ try {
     <title>Prévisions Météo</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-        }
-
-        th {
-            background-color: #f4f4f4;
-        }
-
-        img {
-            height: 30px;
-            vertical-align: middle;
-        }
-
-        #map {
-            height: 80vh;
-            width: 80%;
-            margin-top: 20px;
-            margin: 0 auto; 
-        }
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        th { background-color: #f4f4f4; }
+        img { height: 30px; vertical-align: middle; }
+        #map { height: 80vh; width: 80%; margin-top: 20px; margin: 0 auto; }
     </style>
 </head>
 
@@ -190,32 +175,4 @@ try {
         }
     });
 </script>
-
-<div>
-    <h2>Liens des API utilisées</h2>
-    <ul>
-        <li>
-            <a href="https://ipapi.co/xml/" target="_blank" rel="noopener noreferrer">
-                API de géolocalisation IP (ipapi.co)
-            </a>
-        </li>
-        <li>
-            <a href="https://carto.g-ny.org/data/cifs/cifs_waze_v2.json" target="_blank" rel="noopener noreferrer">
-                API des incidents Waze (carto.g-ny.org)
-            </a>
-        </li>
-        <li>
-            <a href="https://www.infoclimat.fr/public-api/gfs/xml?_ll=48.693722,6.18341&_auth=ARsDFFIsBCZRfFtsD3lSe1Q8ADUPeVRzBHgFZgtuAH1UMQNgUTNcPlU5VClSfVZkUn8AYVxmVW0Eb1I2WylSLgFgA25SNwRuUT1bPw83UnlUeAB9DzFUcwR4BWMLYwBhVCkDb1EzXCBVOFQoUmNWZlJnAH9cfFVsBGRSPVs1UjEBZwNkUjIEYVE6WyYPIFJjVGUAZg9mVD4EbwVhCzMAMFQzA2JRMlw5VThUKFJiVmtSZQBpXGtVbwRlUjVbKVIuARsDFFIsBCZRfFtsD3lSe1QyAD4PZA%3D%3D&_c=19f3aa7d766b6ba91191c8be71dd1ab2" target="_blank" rel="noopener noreferrer">
-                API Météo GFS d'Infoclimat
-            </a>
-        </li>
-        <li>
-            <a href="https://services3.arcgis.com/Is0UwT37raQYl9Jj/arcgis/rest/services/ind_grandest/FeatureServer/0/query?where=lib_zone%3D'Nancy'&outFields=date_ech,lib_zone,lib_qual&f=pjson" target="_blank" rel="noopener noreferrer">
-                API Qualité de l'air à Nancy (ArcGIS)
-            </a>
-        </li>
-    </ul>
-</div>
-
-
 </html>
