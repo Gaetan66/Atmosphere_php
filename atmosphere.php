@@ -170,4 +170,30 @@ try {
         }
     });
 </script>
+
+<div>
+    <h2>Liens des API utilisées</h2>
+    <ul>
+        <li>
+            <a href="https://ipapi.co/xml/" target="_blank" rel="noopener noreferrer">
+                API de géolocalisation IP (ipapi.co)
+            </a>
+        </li>
+        <li>
+            <a href="https://carto.g-ny.org/data/cifs/cifs_waze_v2.json" target="_blank" rel="noopener noreferrer">
+                API des incidents Waze (carto.g-ny.org)
+            </a>
+        </li>
+        <li>
+            <a href="https://www.infoclimat.fr/public-api/gfs/xml?_ll=48.693722,6.18341&_auth=ARsDFFIsBCZRfFtsD3lSe1Q8ADUPeVRzBHgFZgtuAH1UMQNgUTNcPlU5VClSfVZkUn8AYVxmVW0Eb1I2WylSLgFgA25SNwRuUT1bPw83UnlUeAB9DzFUcwR4BWMLYwBhVCkDb1EzXCBVOFQoUmNWZlJnAH9cfFVsBGRSPVs1UjEBZwNkUjIEYVE6WyYPIFJjVGUAZg9mVD4EbwVhCzMAMFQzA2JRMlw5VThUKFJiVmtSZQBpXGtVbwRlUjVbKVIuARsDFFIsBCZRfFtsD3lSe1QyAD4PZA%3D%3D&_c=19f3aa7d766b6ba91191c8be71dd1ab2" target="_blank" rel="noopener noreferrer">
+                API Météo GFS d'Infoclimat
+            </a>
+        </li>
+        <li>
+            <a href="https://services3.arcgis.com/Is0UwT37raQYl9Jj/arcgis/rest/services/ind_grandest/FeatureServer/0/query?where=lib_zone%3D'Nancy'&outFields=date_ech,lib_zone,lib_qual&f=pjson" target="_blank" rel="noopener noreferrer">
+                API Qualité de l'air à Nancy (ArcGIS)
+            </a>
+        </li>
+    </ul>
+</div>
 </html>
