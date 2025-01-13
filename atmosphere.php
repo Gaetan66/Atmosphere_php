@@ -116,6 +116,88 @@ try {
         th { background-color: #f4f4f4; }
         img { height: 30px; vertical-align: middle; }
         #map { height: 80vh; width: 80%; margin-top: 20px; margin: 0 auto; }
+
+        @media screen and (max-width: 1200px) {
+    #map {
+        width: 100%;
+        height: 70vh;
+    }
+
+    body {
+        margin: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1, h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    #map {
+        height: 60vh;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0 auto;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    ul li {
+        margin-bottom: 10px;
+    }
+
+    ul li a {
+        font-size: 14px;
+    }
+}
+
+    @media screen and (max-width: 480px) {
+        h1, h2 {
+        font-size: 1.2em;
+        text-align: center;
+        }
+
+        body {
+        margin: 5px;
+        }
+
+        table {
+        font-size: 10px;
+        }
+
+    th, td {
+        padding: 4px;
+    }
+
+    #map {
+        height: 50vh;
+        width: 100%;
+    }
+
+    ul li a {
+        font-size: 12px;
+    }
+
+    img {
+        height: 20px;
+    }
+}
+
     </style>
 </head>
 
