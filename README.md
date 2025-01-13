@@ -1,1 +1,1 @@
-# Atmosph-re_php
+# Réalisé par Romain PAILLER et Gaetan SZEZCPANSKI
